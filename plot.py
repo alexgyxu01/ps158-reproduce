@@ -45,6 +45,58 @@ C_CORRUPT    = "#eb6834"   # slot 2, orange -- more corrupt than predicted
 C_CLEAN      = "#1baf7a"   # slot 3, aqua   -- cleaner than predicted
 
 
+def validate(df: pd.DataFrame, r: float, seed: int = 20261014):
+    """Checks on the headline number, printed alongside the figure.
+
+    Three questions: how precise is r, does it survive dropping the
+    distributional assumption, and do independent sources agree with V-Dem's
+    corruption measure at all.
+    """
+    x = df["v2x_polyarchy"].to_numpy()
+    y = df["v2x_corr"].to_numpy()
+    n = len(df)
+
+    # 1. Bootstrap 95% interval -- how much of r is sampling of countries?
+    rng = np.random.default_rng(seed)
+    boot = np.empty(10_000)
+    for i in range(boot.size):
+        idx = rng.integers(0, n, n)
+        boot[i] = np.corrcoef(x[idx], y[idx])[0, 1]
+    lo, hi = np.percentile(boot, [2.5, 97.5])
+
+    # 2. Spearman -- rank-based, so immune to the exact spacing of the scales.
+    #    Same role here that a median plays against a mean: it stops a handful
+    #    of extreme values from setting the answer.
+    rho = float(pd.Series(x).corr(pd.Series(y), method="spearman"))
+
+    print("\n--- checks on the headline number " + "-" * 37)
+    print(f"  Pearson r                    {r:+.3f}   "
+          f"95% bootstrap CI [{lo:+.3f}, {hi:+.3f}]  (10,000 resamples)")
+    print(f"  Spearman rho (rank-based)    {rho:+.3f}   "
+          f"{'close to r, so not driven by a few extremes' if abs(rho - r) < 0.1 else 'differs from r -- extremes matter'}")
+
+    # 3. Cross-source: do non-V-Dem measures agree with V-Dem's v2x_corr?
+    #    Both external measures run the opposite way (higher = cleaner), so
+    #    agreement shows up as a strong NEGATIVE correlation.
+    print("\n  Does V-Dem's corruption measure agree with independent sources?")
+    for col, label in (("e_ti_cpi", "Transparency Intl CPI"),
+                       ("e_wbgi_cce", "World Bank control of corr.")):
+        pair = df[["v2x_corr", col]].dropna()
+        rr = float(pair["v2x_corr"].corr(pair[col]))
+        print(f"    v2x_corr vs {label:28s} r = {rr:+.3f}  (n = {len(pair)}, "
+              f"opposite scale, so negative = agreement)")
+
+    # And the headline relationship rebuilt on an external measure entirely.
+    pair = df[["v2x_polyarchy", "e_ti_cpi"]].dropna()
+    r_alt = float(pair["v2x_polyarchy"].corr(pair["e_ti_cpi"]))
+    print(f"\n  Headline rebuilt with CPI in place of v2x_corr: r = {r_alt:+.3f} "
+          f"(n = {len(pair)})")
+    print(f"  Sign flips because CPI is scored the other way; magnitude is what matters.")
+    print("-" * 71)
+
+    return dict(r=r, ci=(lo, hi), rho=rho, r_alt=r_alt)
+
+
 def load(path: Path) -> pd.DataFrame:
     if not path.exists():
         raise SystemExit(f"{path} not found. Run `python get_data.py` first.")
@@ -196,7 +248,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--input", type=Path, default=HERE / "data" / "democracy_corruption.csv")
-    p.add_argument("--output", type=Path, default=HERE / "figures" / "democracy_corruption.png")
+    p.add_argument("--output", type=Path, default=HERE / "figure.png")
     p.add_argument("--n-labels", type=int, default=6,
                    help="how many outliers to label in each direction (default: 6)")
     args = p.parse_args()
@@ -214,6 +266,7 @@ def main():
     print(f"[plot]     More corrupt than predicted: "
           f"{', '.join(corrupt.sort_values('resid', ascending=False)['country_name'])}")
 
+    validate(df, r)
     render(df, rest, clean, corrupt, slope, intercept, r, year, args.output)
 
 

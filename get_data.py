@@ -60,6 +60,12 @@ COLUMNS = {
     "v2x_corr": "Political corruption index (0-1, higher = MORE corrupt)",
     "v2x_regime": "Regimes of the World category (0-3)",
     "e_regionpol_6C": "Politico-geographic region (6 categories)",
+    # Two corruption measures from OUTSIDE V-Dem, bundled into the Full dataset.
+    # They are produced by different organisations with different methods, so
+    # they are an independent check on V-Dem's own v2x_corr rather than a
+    # restatement of it. Both run in the opposite direction to v2x_corr.
+    "e_ti_cpi": "Transparency International CPI (0-100, higher = CLEANER)",
+    "e_wbgi_cce": "World Bank control of corruption (~-2.5 to 2.5, higher = CLEANER)",
 }
 
 REGIME_LABELS = {
@@ -150,10 +156,11 @@ def extract(raw_path: Path, year: int):
         sys.exit(f"No rows for year {year}.")
 
     print(f"\n[extract]  year {year}: {len(sub)} country rows before cleaning")
-    for col in ("v2x_polyarchy", "v2x_corr"):
-        n_missing = sub[col].isna().sum()
-        flag = "" if n_missing == 0 else f"  <-- {n_missing} dropped"
-        print(f"[extract]    {col:16s} missing: {n_missing}{flag}")
+    for col in ("v2x_polyarchy", "v2x_corr", "e_ti_cpi", "e_wbgi_cce"):
+        n_missing = int(sub[col].isna().sum())
+        note = "  (headline, rows dropped)" if col in ("v2x_polyarchy", "v2x_corr") \
+            else "  (cross-check only, rows kept)"
+        print(f"[extract]    {col:16s} missing: {n_missing:3d}{note}")
 
     before = len(sub)
     sub = sub.dropna(subset=["v2x_polyarchy", "v2x_corr"])
