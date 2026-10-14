@@ -1,0 +1,7 @@
+# Raw V-Dem download (~34 MB) -- get_data.py re-fetches and checksums it.
+data/raw/
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

@@ -1,0 +1,180 @@
+country_name,country_text_id,year,v2x_polyarchy,v2x_corr,v2x_regime,e_regionpol_6C,regime_label,region_label
+Afghanistan,AFG,2024.0,0.08,0.681,0.0,6.0,Closed autocracy,Asia & Pacific
+Albania,ALB,2024.0,0.51,0.627,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Algeria,DZA,2024.0,0.26,0.662,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Angola,AGO,2024.0,0.342,0.546,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Argentina,ARG,2024.0,0.721,0.39,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Armenia,ARM,2024.0,0.625,0.372,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Australia,AUS,2024.0,0.848,0.029,3.0,5.0,Liberal democracy,Western Europe & North America
+Austria,AUT,2024.0,0.84,0.114,3.0,5.0,Liberal democracy,Western Europe & North America
+Azerbaijan,AZE,2024.0,0.174,0.902,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Bahrain,BHR,2024.0,0.138,0.47,0.0,3.0,Closed autocracy,Middle East & North Africa
+Bangladesh,BGD,2024.0,0.225,0.922,1.0,6.0,Electoral autocracy,Asia & Pacific
+Barbados,BRB,2024.0,0.802,0.073,3.0,2.0,Liberal democracy,Latin America & Caribbean
+Belarus,BLR,2024.0,0.16,0.419,0.0,1.0,Closed autocracy,Eastern Europe & Central Asia
+Belgium,BEL,2024.0,0.891,0.031,3.0,5.0,Liberal democracy,Western Europe & North America
+Benin,BEN,2024.0,0.491,0.191,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Bhutan,BTN,2024.0,0.565,0.148,2.0,6.0,Electoral democracy,Asia & Pacific
+Bolivia,BOL,2024.0,0.577,0.654,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Bosnia and Herzegovina,BIH,2024.0,0.507,0.769,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Botswana,BWA,2024.0,0.595,0.242,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Brazil,BRA,2024.0,0.799,0.438,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Bulgaria,BGR,2024.0,0.645,0.579,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Burkina Faso,BFA,2024.0,0.154,0.384,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Burma/Myanmar,MMR,2024.0,0.08,0.859,0.0,6.0,Closed autocracy,Asia & Pacific
+Burundi,BDI,2024.0,0.178,0.827,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Cambodia,KHM,2024.0,0.184,0.904,1.0,6.0,Electoral autocracy,Asia & Pacific
+Cameroon,CMR,2024.0,0.277,0.932,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Canada,CAN,2024.0,0.841,0.03,2.0,5.0,Electoral democracy,Western Europe & North America
+Cape Verde,CPV,2024.0,0.752,0.261,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Central African Republic,CAF,2024.0,0.299,0.851,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Chad,TCD,2024.0,0.202,0.952,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Chile,CHL,2024.0,0.845,0.075,3.0,2.0,Liberal democracy,Latin America & Caribbean
+China,CHN,2024.0,0.073,0.55,0.0,6.0,Closed autocracy,Asia & Pacific
+Colombia,COL,2024.0,0.698,0.396,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Comoros,COM,2024.0,0.276,0.809,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Costa Rica,CRI,2024.0,0.862,0.206,3.0,2.0,Liberal democracy,Latin America & Caribbean
+Croatia,HRV,2024.0,0.71,0.254,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Cuba,CUB,2024.0,0.178,0.631,0.0,2.0,Closed autocracy,Latin America & Caribbean
+Cyprus,CYP,2024.0,0.777,0.161,3.0,5.0,Liberal democracy,Western Europe & North America
+Czechia,CZE,2024.0,0.865,0.095,3.0,1.0,Liberal democracy,Eastern Europe & Central Asia
+Democratic Republic of the Congo,COD,2024.0,0.308,0.905,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Denmark,DNK,2024.0,0.917,0.004,3.0,5.0,Liberal democracy,Western Europe & North America
+Djibouti,DJI,2024.0,0.25,0.686,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Dominican Republic,DOM,2024.0,0.71,0.562,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Ecuador,ECU,2024.0,0.641,0.655,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Egypt,EGY,2024.0,0.186,0.729,1.0,3.0,Electoral autocracy,Middle East & North Africa
+El Salvador,SLV,2024.0,0.335,0.684,1.0,2.0,Electoral autocracy,Latin America & Caribbean
+Equatorial Guinea,GNQ,2024.0,0.176,0.837,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Eritrea,ERI,2024.0,0.069,0.728,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Estonia,EST,2024.0,0.893,0.025,3.0,1.0,Liberal democracy,Eastern Europe & Central Asia
+Eswatini,SWZ,2024.0,0.129,0.54,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Ethiopia,ETH,2024.0,0.26,0.52,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Fiji,FJI,2024.0,0.514,0.289,2.0,6.0,Electoral democracy,Asia & Pacific
+Finland,FIN,2024.0,0.827,0.023,3.0,5.0,Liberal democracy,Western Europe & North America
+France,FRA,2024.0,0.864,0.049,3.0,5.0,Liberal democracy,Western Europe & North America
+Gabon,GAB,2024.0,0.227,0.724,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Georgia,GEO,2024.0,0.48,0.188,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Germany,DEU,2024.0,0.825,0.024,3.0,5.0,Liberal democracy,Western Europe & North America
+Ghana,GHA,2024.0,0.665,0.638,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Greece,GRC,2024.0,0.744,0.237,2.0,5.0,Electoral democracy,Western Europe & North America
+Guatemala,GTM,2024.0,0.609,0.691,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Guinea,GIN,2024.0,0.159,0.862,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Guinea-Bissau,GNB,2024.0,0.279,0.747,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Guyana,GUY,2024.0,0.491,0.507,1.0,2.0,Electoral autocracy,Latin America & Caribbean
+Haiti,HTI,2024.0,0.237,0.786,0.0,2.0,Closed autocracy,Latin America & Caribbean
+Honduras,HND,2024.0,0.538,0.749,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Hong Kong,HKG,2024.0,0.158,0.09,0.0,6.0,Closed autocracy,Asia & Pacific
+Hungary,HUN,2024.0,0.444,0.494,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Iceland,ISL,2024.0,0.842,0.023,3.0,5.0,Liberal democracy,Western Europe & North America
+India,IND,2024.0,0.381,0.681,1.0,6.0,Electoral autocracy,Asia & Pacific
+Indonesia,IDN,2024.0,0.496,0.767,1.0,6.0,Electoral autocracy,Asia & Pacific
+Iran,IRN,2024.0,0.166,0.783,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Iraq,IRQ,2024.0,0.361,0.85,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Ireland,IRL,2024.0,0.895,0.032,3.0,5.0,Liberal democracy,Western Europe & North America
+Israel,ISR,2024.0,0.702,0.111,2.0,3.0,Electoral democracy,Middle East & North Africa
+Italy,ITA,2024.0,0.784,0.182,3.0,5.0,Liberal democracy,Western Europe & North America
+Ivory Coast,CIV,2024.0,0.429,0.599,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Jamaica,JAM,2024.0,0.798,0.19,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Japan,JPN,2024.0,0.822,0.05,3.0,6.0,Liberal democracy,Asia & Pacific
+Jordan,JOR,2024.0,0.274,0.43,0.0,3.0,Closed autocracy,Middle East & North Africa
+Kazakhstan,KAZ,2024.0,0.267,0.729,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Kenya,KEN,2024.0,0.557,0.556,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Kosovo,XKX,2024.0,0.648,0.272,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Kuwait,KWT,2024.0,0.198,0.315,0.0,3.0,Closed autocracy,Middle East & North Africa
+Kyrgyzstan,KGZ,2024.0,0.321,0.793,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Laos,LAO,2024.0,0.135,0.752,0.0,6.0,Closed autocracy,Asia & Pacific
+Latvia,LVA,2024.0,0.834,0.071,3.0,1.0,Liberal democracy,Eastern Europe & Central Asia
+Lebanon,LBN,2024.0,0.347,0.842,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Lesotho,LSO,2024.0,0.652,0.554,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Liberia,LBR,2024.0,0.61,0.877,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Libya,LBY,2024.0,0.195,0.819,0.0,3.0,Closed autocracy,Middle East & North Africa
+Lithuania,LTU,2024.0,0.798,0.169,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Luxembourg,LUX,2024.0,0.869,0.029,3.0,5.0,Liberal democracy,Western Europe & North America
+Madagascar,MDG,2024.0,0.403,0.883,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Malawi,MWI,2024.0,0.563,0.721,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Malaysia,MYS,2024.0,0.513,0.322,2.0,6.0,Electoral democracy,Asia & Pacific
+Maldives,MDV,2024.0,0.577,0.411,2.0,6.0,Electoral democracy,Asia & Pacific
+Mali,MLI,2024.0,0.192,0.718,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Malta,MLT,2024.0,0.783,0.186,2.0,5.0,Electoral democracy,Western Europe & North America
+Mauritania,MRT,2024.0,0.337,0.853,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Mauritius,MUS,2024.0,0.495,0.455,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Mexico,MEX,2024.0,0.496,0.581,1.0,2.0,Electoral autocracy,Latin America & Caribbean
+Moldova,MDA,2024.0,0.622,0.325,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Mongolia,MNG,2024.0,0.498,0.687,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Montenegro,MNE,2024.0,0.64,0.475,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Morocco,MAR,2024.0,0.261,0.664,0.0,3.0,Closed autocracy,Middle East & North Africa
+Mozambique,MOZ,2024.0,0.31,0.698,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Namibia,NAM,2024.0,0.624,0.283,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Nepal,NPL,2024.0,0.669,0.622,2.0,6.0,Electoral democracy,Asia & Pacific
+Netherlands,NLD,2024.0,0.823,0.018,3.0,5.0,Liberal democracy,Western Europe & North America
+New Zealand,NZL,2024.0,0.868,0.011,3.0,5.0,Liberal democracy,Western Europe & North America
+Nicaragua,NIC,2024.0,0.151,0.942,1.0,2.0,Electoral autocracy,Latin America & Caribbean
+Niger,NER,2024.0,0.237,0.57,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Nigeria,NGA,2024.0,0.499,0.932,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+North Korea,PRK,2024.0,0.084,0.67,0.0,6.0,Closed autocracy,Asia & Pacific
+North Macedonia,MKD,2024.0,0.557,0.754,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Norway,NOR,2024.0,0.889,0.01,3.0,5.0,Liberal democracy,Western Europe & North America
+Oman,OMN,2024.0,0.175,0.253,0.0,3.0,Closed autocracy,Middle East & North Africa
+Pakistan,PAK,2024.0,0.313,0.818,1.0,6.0,Electoral autocracy,Asia & Pacific
+Palestine/Gaza,PSG,2024.0,0.095,0.342,0.0,3.0,Closed autocracy,Middle East & North Africa
+Palestine/West Bank,PSE,2024.0,0.212,0.444,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Panama,PAN,2024.0,0.728,0.484,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Papua New Guinea,PNG,2024.0,0.462,0.698,1.0,6.0,Electoral autocracy,Asia & Pacific
+Paraguay,PRY,2024.0,0.581,0.801,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Peru,PER,2024.0,0.642,0.619,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Philippines,PHL,2024.0,0.411,0.837,1.0,6.0,Electoral autocracy,Asia & Pacific
+Poland,POL,2024.0,0.73,0.106,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Portugal,PRT,2024.0,0.836,0.166,2.0,5.0,Electoral democracy,Western Europe & North America
+Qatar,QAT,2024.0,0.087,0.32,0.0,3.0,Closed autocracy,Middle East & North Africa
+Republic of the Congo,COG,2024.0,0.255,0.839,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Romania,ROU,2024.0,0.628,0.389,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Russia,RUS,2024.0,0.171,0.795,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Rwanda,RWA,2024.0,0.201,0.418,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Sao Tome and Principe,STP,2024.0,0.632,0.285,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Saudi Arabia,SAU,2024.0,0.015,0.326,0.0,3.0,Closed autocracy,Middle East & North Africa
+Senegal,SEN,2024.0,0.605,0.404,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Serbia,SRB,2024.0,0.315,0.76,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Seychelles,SYC,2024.0,0.737,0.047,3.0,4.0,Liberal democracy,Sub-Saharan Africa
+Sierra Leone,SLE,2024.0,0.471,0.571,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Singapore,SGP,2024.0,0.418,0.032,1.0,6.0,Electoral autocracy,Asia & Pacific
+Slovakia,SVK,2024.0,0.746,0.278,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Slovenia,SVN,2024.0,0.725,0.057,2.0,1.0,Electoral democracy,Eastern Europe & Central Asia
+Solomon Islands,SLB,2024.0,0.688,0.602,2.0,6.0,Electoral democracy,Asia & Pacific
+Somalia,SOM,2024.0,0.165,0.87,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Somaliland,SML,2024.0,0.42,0.598,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+South Africa,ZAF,2024.0,0.734,0.517,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+South Korea,KOR,2024.0,0.724,0.156,2.0,6.0,Electoral democracy,Asia & Pacific
+South Sudan,SSD,2024.0,0.154,0.864,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Spain,ESP,2024.0,0.826,0.098,3.0,5.0,Liberal democracy,Western Europe & North America
+Sri Lanka,LKA,2024.0,0.677,0.456,2.0,6.0,Electoral democracy,Asia & Pacific
+Sudan,SDN,2024.0,0.137,0.839,0.0,4.0,Closed autocracy,Sub-Saharan Africa
+Suriname,SUR,2024.0,0.767,0.14,2.0,2.0,Electoral democracy,Latin America & Caribbean
+Sweden,SWE,2024.0,0.881,0.009,3.0,5.0,Liberal democracy,Western Europe & North America
+Switzerland,CHE,2024.0,0.882,0.023,3.0,5.0,Liberal democracy,Western Europe & North America
+Syria,SYR,2024.0,0.143,0.797,0.0,3.0,Closed autocracy,Middle East & North Africa
+Taiwan,TWN,2024.0,0.804,0.22,3.0,6.0,Liberal democracy,Asia & Pacific
+Tajikistan,TJK,2024.0,0.168,0.882,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+Tanzania,TZA,2024.0,0.413,0.281,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Thailand,THA,2024.0,0.41,0.635,1.0,6.0,Electoral autocracy,Asia & Pacific
+The Gambia,GMB,2024.0,0.63,0.28,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Timor-Leste,TLS,2024.0,0.734,0.221,2.0,6.0,Electoral democracy,Asia & Pacific
+Togo,TGO,2024.0,0.35,0.773,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Trinidad and Tobago,TTO,2024.0,0.773,0.1,3.0,2.0,Liberal democracy,Latin America & Caribbean
+Tunisia,TUN,2024.0,0.422,0.41,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Turkmenistan,TKM,2024.0,0.149,0.891,0.0,1.0,Closed autocracy,Eastern Europe & Central Asia
+Türkiye,TUR,2024.0,0.289,0.8,1.0,3.0,Electoral autocracy,Middle East & North Africa
+Uganda,UGA,2024.0,0.261,0.844,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Ukraine,UKR,2024.0,0.387,0.633,1.0,1.0,Electoral autocracy,Eastern Europe & Central Asia
+United Arab Emirates,ARE,2024.0,0.104,0.105,0.0,3.0,Closed autocracy,Middle East & North Africa
+United Kingdom,GBR,2024.0,0.832,0.043,2.0,5.0,Electoral democracy,Western Europe & North America
+United States of America,USA,2024.0,0.843,0.051,3.0,5.0,Liberal democracy,Western Europe & North America
+Uruguay,URY,2024.0,0.846,0.051,3.0,2.0,Liberal democracy,Latin America & Caribbean
+Uzbekistan,UZB,2024.0,0.214,0.835,0.0,1.0,Closed autocracy,Eastern Europe & Central Asia
+Vanuatu,VUT,2024.0,0.8,0.279,2.0,6.0,Electoral democracy,Asia & Pacific
+Venezuela,VEN,2024.0,0.196,0.97,1.0,2.0,Electoral autocracy,Latin America & Caribbean
+Vietnam,VNM,2024.0,0.159,0.487,0.0,6.0,Closed autocracy,Asia & Pacific
+Yemen,YEM,2024.0,0.126,0.91,0.0,3.0,Closed autocracy,Middle East & North Africa
+Zambia,ZMB,2024.0,0.512,0.351,2.0,4.0,Electoral democracy,Sub-Saharan Africa
+Zanzibar,ZZB,2024.0,0.288,0.525,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
+Zimbabwe,ZWE,2024.0,0.272,0.824,1.0,4.0,Electoral autocracy,Sub-Saharan Africa
